@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <br>
+            <center>
+                <h1>Simple Task Manager</h1>
+            </center>
+
+            <div class="input-section">
+                <label>Task&nbsp&nbsp&nbsp</label>
+                <input type="text" id="taskName" placeholder="Task Name">
+                <br><br>
+                <label>Description&nbsp</label>
+                <textarea id="taskDescription" placeholder="Task Description"></textarea>
+            </div>
+
+            <div class="button-section">
+                <button class="add" id="add" onclick="addTask()">Add Task</button>
+                <button class="view" id="view" onclick="viewTasks()">View Task List</button>
+            </div>
+        </div>
+
+        
+        <div class="container" style="display: none;">
+            <div class="task-list">
+                <h2>Tasks</h2>
+
+                <label for="filter">Filter by Status:</label>
+        <select id="filter" onchange="filterTasks()">
+            <option value="all">All</option>
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
+        </select>
+                <ul id="taskList"></ul>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
