@@ -46,20 +46,21 @@ The Task status can be toggled from pending to completed and vice versa through 
 * No Package installation required
 
 ### Steps to Run
-1.  **Download/Clone the Repository:**
-    * If you downloaded the files as a ZIP archive, extract them to a folder on your computer.
-    * If you're using Git, clone the repository to your local machine:
+1.  **Download the Project:**
+    * Download the index.html file to your Local Machine
        
-
 2.  **Open the `index.html` File:**
-    * Navigate to the folder where you saved or extracted the files.
-    * Locate the `index.html` file.
-    * Double-click the `index.html` file to open it in your default web browser (e.g., Chrome, Firefox, Safari, Edge).
+    * Open the index.html file in your web browser by double clicking it.
 
 3.  **Use the Task Management App:**
     * The website will open in your browser, and you can start using it.
     * Follow the instructions in the "Usage" section of this README to add, view, and manage your tasks.
 
+## Code Folder
+* The I388_Assignemnt 1_Javascript has the following contents
+        - main.html - Contains only the html code
+        - style.css - Contains only the css code
+        - script.js - Contains the javascript code
 ## Usage
 
 1.  Open the `index.html` file in your web browser.
