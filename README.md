@@ -58,9 +58,9 @@ The Task status can be toggled from pending to completed and vice versa through 
 
 ## Code Folder
 * The I388_Assignemnt 1_Javascript has the following contents
-        - main.html - Contains only the html code
-        - style.css - Contains only the css code
-        - script.js - Contains the javascript code
+        1. main.html - Contains only the html code
+        2. style.css - Contains only the css code
+        3. script.js - Contains the javascript code
 ## Usage
 
 1.  Open the `index.html` file in your web browser.
